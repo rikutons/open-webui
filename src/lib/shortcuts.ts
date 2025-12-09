@@ -143,11 +143,6 @@ export const shortcuts: ShortcutRegistry = {
 		category: 'Message',
 		tooltip: 'Only can be triggered when the chat input is in focus.'
 	},
-	[Shortcut.COPY_LAST_RESPONSE]: {
-		name: 'Copy Last Response',
-		keys: ['mod', 'shift', 'C'],
-		category: 'Message'
-	},
 	[Shortcut.COPY_LAST_CODE_BLOCK]: {
 		name: 'Copy Last Code Block',
 		keys: ['mod', 'shift', ';'],
